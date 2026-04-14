@@ -22,7 +22,7 @@ The goal was to explore how modern tools like Figma AI, Claude, and ChatGPT can 
   - Booking section
   - Call-to-action footer
 - Focused on clean layout and hierarchy for future code generation
-- See (./figma_prompt.txt) for details
+- See **figma_prompt.txt** for prompt details
 
 ---
 
