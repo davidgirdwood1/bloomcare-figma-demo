@@ -1,10 +1,12 @@
-# BloomCare Demo (Figma → React with AI)
+# "Healtcare" Demo (Figma AI → React -> ChatGPT)
 
-![BloomCare Screenshot](./screenshot.png)
+![Screenshot](./screenshot.png)
 
 ---
 
 ## 🚀 Overview
+
+Built a healthcare landing page using an AI-assisted design-to-code workflow (Figma Make → React → refinement), then refactored into a clean, component-based architecture with Tailwind CSS.
 
 This project is a lightweight demo showcasing an AI-assisted **design-to-code workflow**, starting from a prompt-driven design and ending with a clean, component-based React application.
 
@@ -71,6 +73,11 @@ The goal was to explore how modern tools like Figma AI, Claude, and ChatGPT can 
 - Clean component architecture significantly improves output quality
 - Figma AI is great for ideation, but lacks structured design context
 - MCP + Code Connect represent the future of **true design-to-code pipelines**
+
+## 🔍 Before vs After
+
+- Initial AI-generated version: ([75ff8da1e01b38e14b5e1285eb4f9eabd8b6fa8f](https://github.com/davidgirdwood1/bloomcare-figma-demo/tree/75ff8da1e01b38e14b5e1285eb4f9eabd8b6fa8f))
+- Refined component-based version: (https://github.com/davidgirdwood1/bloomcare-figma-demo/tree/d5751588fefc4ff8747e5791ba9db695d822b073)
 
 ---
 
