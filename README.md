@@ -1,4 +1,4 @@
-# "Healtcare" Demo (Figma AI → React -> ChatGPT)
+# Healthcare Demo (Figma AI → React -> ChatGPT)
 
 ![Screenshot](./screenshot.png)
 
