@@ -1,27 +1,27 @@
-interface PrimaryButtonProps {
-  children: React.ReactNode;
-  onClick?: () => void;
-  variant?: 'primary' | 'secondary';
-  className?: string;
+import type { ButtonHTMLAttributes, ReactNode } from "react";
+
+interface PrimaryButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
+  children: ReactNode;
+  variant?: "primary" | "secondary";
 }
 
 export function PrimaryButton({
   children,
-  onClick,
-  variant = 'primary',
-  className = ''
+  className = "",
+  type = "button",
+  variant = "primary",
+  ...props
 }: PrimaryButtonProps) {
-  const baseStyles = "px-8 py-4 rounded-full transition-all duration-300 shadow-sm hover:shadow-lg transform hover:-translate-y-0.5";
+  const baseStyles =
+    "inline-flex items-center justify-center rounded-full px-7 py-4 text-base font-semibold transition duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background shadow-sm hover:-translate-y-0.5 hover:shadow-lg";
 
-  const variantStyles = variant === 'primary'
-    ? "bg-primary text-primary-foreground hover:bg-[var(--bloom-terracotta-light)]"
-    : "bg-secondary text-secondary-foreground hover:bg-[var(--bloom-sage-light)]";
+  const variantStyles =
+    variant === "primary"
+      ? "bg-primary text-primary-foreground hover:bg-[var(--bloom-terracotta-light)]"
+      : "bg-white text-[var(--bloom-forest)] hover:bg-white/90";
 
   return (
-    <button
-      onClick={onClick}
-      className={`${baseStyles} ${variantStyles} ${className}`}
-    >
+    <button type={type} className={`${baseStyles} ${variantStyles} ${className}`.trim()} {...props}>
       {children}
     </button>
   );
