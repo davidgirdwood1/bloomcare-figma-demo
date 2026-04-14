@@ -1,0 +1,54 @@
+Build a responsive healthcare landing page for a product called "BloomCare", focused on personalized midlife and menopause care.
+
+Use a clean, modern, trustworthy design style with soft colors and good spacing.
+
+IMPORTANT:
+
+* Use Auto Layout for ALL sections and components
+* Use clear and consistent layer/component names
+* Keep layout structured and developer-friendly (no absolute positioning)
+
+Page Structure:
+
+1. Landing Page (single main frame, 1440px width, vertical layout)
+
+2. Hero Section (name: HeroSection)
+
+* Vertical Auto Layout
+* Large headline: "Personalized Midlife Care"
+* Subheadline: "Support for every stage of your health journey"
+* Primary CTA button (name: PrimaryButton) with text "Get Started"
+
+3. Features Section (name: FeaturesSection)
+
+* Horizontal Auto Layout
+* Create 3 cards (each named FeatureCard)
+* Each card should include:
+
+  * Title
+  * Short description
+  * Simple icon placeholder
+* Cards should be evenly spaced and consistent
+
+4. Booking Section (name: BookingSection)
+
+* Vertical Auto Layout
+* Title: "Book a Consultation"
+* Include 2–3 input fields (styled form elements)
+* CTA button: "Schedule Now"
+
+5. Footer CTA Section (name: FooterCTA)
+
+* Vertical Auto Layout
+* Headline: "Take control of your health today"
+* CTA button: "Join Now"
+
+Design Guidelines:
+
+* Use consistent spacing system (8px or 16px scale)
+* Use readable typography hierarchy
+* Keep components reusable and clearly named
+* Keep everything aligned and structured for easy code generation
+
+Goal:
+This design will be used for AI-assisted design-to-code (Figma MCP → React), so prioritize clean structure, reusable components, and clear hierarchy over visual complexity.
