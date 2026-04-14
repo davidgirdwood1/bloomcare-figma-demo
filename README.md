@@ -76,8 +76,8 @@ The goal was to explore how modern tools like Figma AI, Claude, and ChatGPT can 
 
 ## 🔍 Before vs After
 
-- Initial AI-generated version: ([75ff8da1e01b38e14b5e1285eb4f9eabd8b6fa8f](https://github.com/davidgirdwood1/bloomcare-figma-demo/tree/75ff8da1e01b38e14b5e1285eb4f9eabd8b6fa8f))
-- Refined component-based version: (https://github.com/davidgirdwood1/bloomcare-figma-demo/tree/d5751588fefc4ff8747e5791ba9db695d822b073)
+- Initial AI-generated version: ([75ff8da](https://github.com/davidgirdwood1/bloomcare-figma-demo/tree/75ff8da1e01b38e14b5e1285eb4f9eabd8b6fa8f))
+- Refined component-based version: ([d575158](https://github.com/davidgirdwood1/bloomcare-figma-demo/tree/d5751588fefc4ff8747e5791ba9db695d822b073))
 
 ---
 

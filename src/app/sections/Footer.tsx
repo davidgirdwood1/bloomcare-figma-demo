@@ -7,7 +7,7 @@ export function Footer() {
     <footer className="border-t border-border bg-white py-10">
       <Container className="flex flex-col items-center justify-between gap-5 text-center text-sm text-muted-foreground md:flex-row md:text-left">
         <div className="font-['Lora'] text-2xl text-foreground" style={{ fontWeight: 600 }}>
-          BloomCare
+          HealthCare
         </div>
         <nav aria-label="Footer" className="flex flex-wrap justify-center gap-6">
           {links.map((link) => (
@@ -16,7 +16,7 @@ export function Footer() {
             </a>
           ))}
         </nav>
-        <div>© 2026 BloomCare. All rights reserved.</div>
+        <div>© 2026 HealthCare Demo. All rights reserved.</div>
       </Container>
     </footer>
   );
