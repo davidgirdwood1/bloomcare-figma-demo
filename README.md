@@ -62,8 +62,8 @@ The goal was to explore how modern tools like Figma AI, Claude, and ChatGPT can 
 
 - React
 - Vite
-- JavaScript (ES6+)
-- CSS
+- TypeScript / JavaScript (ES6+)
+- Tailwind CSS
 
 ---
 
