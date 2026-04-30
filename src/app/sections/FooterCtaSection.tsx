@@ -18,7 +18,7 @@ export function FooterCtaSection() {
             Take control of your health today
           </h2>
           <p className="mx-auto max-w-2xl text-xl leading-8 text-white/90">
-            Join thousands of women who have found more clarity, confidence, and support for their midlife journey.
+            Join thousands of people who have found more clarity, confidence, and support for their life journey.
           </p>
           <PrimaryButton variant="secondary" className="text-lg">
             Join Now

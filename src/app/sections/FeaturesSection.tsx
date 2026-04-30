@@ -13,7 +13,7 @@ const features = [
   {
     title: "Expert Guidance",
     description:
-      "Connect with providers who understand menopause and midlife wellness, with support that feels informed and approachable.",
+      "Connect with providers who understand wellness, with support that feels informed and approachable.",
     icon: <TeamIcon className="h-7 w-7" />,
   },
   {

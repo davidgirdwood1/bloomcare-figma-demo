@@ -9,10 +9,10 @@ export function HeroSection() {
       <Container className="relative z-10">
         <div className="mx-auto flex max-w-4xl flex-col items-center text-center">
           <span className="mb-6 inline-flex rounded-full border border-border bg-white/70 px-4 py-2 text-sm font-medium text-[var(--bloom-clay)] shadow-sm backdrop-blur-sm">
-            Personalized support for menopause and midlife wellness
+            Personalized support for wellness
           </span>
           <h1 className="text-5xl tracking-tight sm:text-6xl lg:text-8xl" style={{ fontWeight: 600 }}>
-            Personalized Midlife Care
+            Personalized Care
           </h1>
           <p className="mt-6 max-w-2xl text-lg leading-8 text-muted-foreground sm:text-xl">
             Support for every stage of your health journey with evidence-based plans, expert guidance, and clear next
